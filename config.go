@@ -63,7 +63,6 @@ telegram_chat_id: ""
 
 # target wildcard to monitor
 targets:
-  - github.com
 `
 
 	return os.WriteFile(configPath, []byte(template), 0644)
@@ -136,3 +135,4 @@ func updateWebhook(newWebhook string) error {
 
 	return os.WriteFile(configPath, newData, 0644)
 }
+
