@@ -1,4 +1,4 @@
-module github.com/1hehaq/ceye
+module github.com/spyomen/ceye
 
 go 1.21
 
